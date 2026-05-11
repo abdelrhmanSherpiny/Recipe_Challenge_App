@@ -2,15 +2,15 @@
 
 A modern, comprehensive Flutter recipe application designed to help users master their cooking skills through challenges, time tracking, and a curated list of recipes.
 
-## ✨ Features
+## Features
 
-### 🚀 Onboarding
+### Onboarding
 - **Interactive 3-Step Flow:** Guides users through the app's value proposition.
 - **Personalization:** Collects user name and cooking level (Beginner, Intermediate, Chef).
 - **Responsive Design:** Adaptive layout that switches between mobile (stacked) and tablet (side-by-side) views using `LayoutBuilder`.
 - **State Persistence:** Remembers if onboarding is completed using `shared_preferences`.
 
-### 🏠 Home Dashboard
+### Home Dashboard
 - **Personalized Header:** Greets the user by name and displays their current cooking level.
 - **Today's Challenge:** A featured recipe card with a custom gradient overlay and visual details.
 - **Random Recipe:** "Roll the dice" feature to suggest a random meal.
@@ -19,17 +19,17 @@ A modern, comprehensive Flutter recipe application designed to help users master
   - rich meta-data (Time, Steps, Tags).
   - SVG icons for food types (Meat, Veggie, etc.).
 
-### ❤️ Favorites System
+### Favorites System
 - **Interactive Toggles:** Users can mark recipes as favorites directly from the list.
 - **Dedicated Tab:** A filterable view in the bottom navigation to show only bookmarked recipes.
 
-### 🎨 UI/UX Design
+### UI/UX Design
 - **Custom Typography:** Uses *Hedvig Letters Serif* for headings and *Nunito* for body text via `google_fonts`.
 - **Dark Theme:** Sleek dark mode aesthetic with consistent color palettes (`#0E1118` background, `#DB7A2B` accents).
 - **Visuals:** Extensive use of SVG icons and high-quality image assets.
 - **Gradients:** Custom linear gradients for text readability on image backgrounds.
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Framework:** [Flutter](https://flutter.dev/)
 - **Language:** [Dart](https://dart.dev/)
@@ -38,7 +38,7 @@ A modern, comprehensive Flutter recipe application designed to help users master
 - **Assets:** [flutter_svg](https://pub.dev/packages/flutter_svg) for vector graphics.
 - **Fonts:** [google_fonts](https://pub.dev/packages/google_fonts).
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 lib/
@@ -52,7 +52,7 @@ assets/
 └── icons/                  # SVG icons (UI elements, navigation)
 ```
 
-## 🚀 Getting Started
+## Getting Started
 
 1.  **Prerequisites:**
     - Flutter SDK installed.
