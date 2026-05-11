@@ -1,4 +1,4 @@
-# Recipe Challenge App 🍳
+# Recipe Challenge App 
 
 A modern, comprehensive Flutter recipe application designed to help users master their cooking skills through challenges, time tracking, and a curated list of recipes.
 
